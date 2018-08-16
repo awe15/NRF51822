@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\awe\Documents\Tencent Files\605592036\FileRecv\BLEÊµÑé4£ºÀ¶ÑÀ´®¿Ú\Board\pca10001\s110\experimental\ble_app_uart\arm\ble_app_uart.uvproj
+Project File Date:  09/12/2017
+
+<h2>Output:</h2>
+Build target 'nrf51822_xxaa_s110 (256K)'
+compiling main.c...
+..\main.c(228): warning:  #177-D: function "leds_init" was declared but never referenced
+linking...
+Program Size: Code=9556 RO-data=244 RW-data=108 ZI-data=6916  
+FromELF: creating hex file...
+".\_build\ble_app_uart.axf" - 0 Error(s), 1 Warning(s).

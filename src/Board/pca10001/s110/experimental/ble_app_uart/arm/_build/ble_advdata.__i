@@ -1,0 +1,5 @@
+-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common --c99 
+-I K:\KEIL\ARM\RV31\INC 
+-I K:\KEIL\ARM\CMSIS\Include 
+-I K:\KEIL\ARM\Device\Nordic\nRF51822\Include 
+-DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -o ".\_build\ble_advdata.o" --omf_browse ".\_build\ble_advdata.crf" --depend ".\_build\ble_advdata.d" "..\..\..\..\..\..\Source\ble\ble_advdata.c"
